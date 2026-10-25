@@ -55,6 +55,7 @@ noctis:
   primary-background-color: "var(--background-color)"
   background-color-2: "#313f59"
   background-color-3: "#3a4a68"
+  background-color-4: "#455778"
   secondary-background-color: "var(--background-color-2)"
   markdown-code-background-color: "var(--background-color)"
 
@@ -306,6 +307,12 @@ noctis:
   ha-color-fill-neutral-quiet-resting: "var(--background-color-2)"
   ha-color-fill-neutral-quiet-hover: "var(--background-color-3)"
   ha-color-fill-neutral-quiet-active: "var(--background-color-2)"
+
+  # Dropdown/menu items and other neutral surfaces
+  ha-color-fill-neutral-normal-resting: "var(--background-color-3)"
+  ha-color-fill-neutral-normal-hover: "var(--background-color-4)"
+  ha-color-fill-neutral-normal-active: "var(--background-color-3)"
+  ha-color-on-neutral-normal: "var(--text-color)"
 
   ha-color-form-background: "var(--mdc-text-field-fill-color)"
   ha-color-form-background-hover: "var(--background-color-2)"
