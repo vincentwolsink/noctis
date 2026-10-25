@@ -20,6 +20,7 @@ noctis:
   primary-text-color: "var(--text-color)"
   text-primary-color: "var(--text-color)"
   secondary-text-color: "#BAC0C6"
+  ha-color-text-secondary: "var(--secondary-text-color)"
   text-medium-light-color: "#A0A2A8"
   text-medium-color: "#80828A"
   disabled-text-color: "#626569"
@@ -294,6 +295,12 @@ noctis:
   # New colors
   ha-color-primary-40: "var(--accent-color)"
   ha-color-primary-95: "var(--background-color-2)"
+
+  # Icons in list/table rows (integrations, devices, ...)
+  ha-color-fill-neutral-loud-resting: "var(--text-color)"
+  ha-color-fill-neutral-loud-hover: "var(--paper-item-icon-color)"
+  ha-color-fill-neutral-loud-active: "var(--paper-item-icon-color)"
+  ha-color-on-neutral-loud: "var(--background-color)"
 
   ha-color-form-background: "var(--mdc-text-field-fill-color)"
   ha-color-form-background-hover: "var(--background-color-2)"
