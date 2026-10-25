@@ -54,6 +54,7 @@ noctis:
   background-color: "#242e42"
   primary-background-color: "var(--background-color)"
   background-color-2: "#313f59"
+  background-color-3: "#3a4a68"
   secondary-background-color: "var(--background-color-2)"
   markdown-code-background-color: "var(--background-color)"
 
@@ -300,7 +301,11 @@ noctis:
   ha-color-fill-neutral-loud-resting: "var(--text-color)"
   ha-color-fill-neutral-loud-hover: "var(--paper-item-icon-color)"
   ha-color-fill-neutral-loud-active: "var(--paper-item-icon-color)"
-  ha-color-on-neutral-loud: "var(--background-color)"
+
+  # Subtle surfaces and hover backgrounds
+  ha-color-fill-neutral-quiet-resting: "var(--background-color-2)"
+  ha-color-fill-neutral-quiet-hover: "var(--background-color-3)"
+  ha-color-fill-neutral-quiet-active: "var(--background-color-2)"
 
   ha-color-form-background: "var(--mdc-text-field-fill-color)"
   ha-color-form-background-hover: "var(--background-color-2)"
